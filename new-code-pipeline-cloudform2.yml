@@ -14,7 +14,7 @@
       disable_rollback: true
       template: "new-code-pipeline2.yml"
       template_parameters:
-        GitHubOwner: santhosh007k
+        GitHubOwner: prafful2005
         #GitHubOAuthToken: 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
         GitHubOAuthToken: "{{git_token}}"
         GitHubRepo: cfncross
